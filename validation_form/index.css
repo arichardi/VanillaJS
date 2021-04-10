@@ -1,0 +1,83 @@
+body{
+    background-color: dimgrey;
+}
+
+.wrapper{
+    background-color: whitesmoke;
+    width: 80vw;
+    margin: 40px auto;
+    padding: 20px ;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 10px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+form {
+    margin-top: 50px;
+}
+
+form > button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: darkslateblue;
+}
+
+form > input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.success{
+    color: green;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none
+}
+
+.liveError{
+    border: 1px solid crimson
+}
+
+.liveSuccess{
+    border: 1px solid green
+}
+
+.empty{
+    color: red;
+    display: none;
+}
+
+.errorCase{
+    color: red;
+    display: none;
+}
+
+.errorSize{
+    color: red;
+    display: none;
+}
