@@ -29,6 +29,6 @@ form.addEventListener('submit', (event, index) => {
         }else{
             initialScore += 1
         }
-    }, 30)
+    }, 10)
 
 })
