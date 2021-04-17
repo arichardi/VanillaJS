@@ -1,7 +1,9 @@
 const cityForm = document.querySelector('form')
 
-const updateCity = async () => {
-    
+const updateCity = async (city) => {
+
+    console.log(city)
+
 }
 
 cityForm.addEventListener('submit', (event) =>{
@@ -10,5 +12,9 @@ cityForm.addEventListener('submit', (event) =>{
     const city = cityForm.city.value.trim()
     cityForm.reset()
 
+    
     //update the ui 
+    updateCity(city)
+
+
 })

@@ -34,10 +34,10 @@ async function geoCity(city){
 
 }
 
-geoCity('sao paulo')
+/* geoCity('sao paulo')
     .then( data => {
         console.log(data)
         return getWeather(data.Key)})
     .then( data => console.log(data))
-    .catch( err => console.log(err))
+    .catch( err => console.log(err)) */
 
